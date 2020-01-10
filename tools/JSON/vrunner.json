@@ -1,0 +1,23 @@
+{
+    "$schema": "https://raw.githubusercontent.com/silverbulleters/vanessa-runner/develop/vanessa-runner-schema.json",
+    "default": {
+        "--ibconnection": "/FC:/projects/SB/sb-hakaton-2019/build/БСП-1",
+        // "--ibconnection": "/Smyserver\\mybase",
+        "--db-user": "Администратор",
+        "--db-pwd": "",
+        "--workspace": ".",
+        "--v8version":"8.3.15",
+        "--additional": "/DisplayAllFunctions /Lru  /iTaxi ",
+        // "--additional": "/DisplayAllFunctions /Lru  /iTaxi /Debug /DebuggerURL tcp://ws-msk-0105:1560",
+        "--ordinaryapp": "-1"
+    },
+    "vanessa": {
+        "--vanessasettings": "./tools/JSON/vanessaBddConf.json"
+    },
+    "xunit": {
+        "--xddConfig": "./tools/JSON/vanessaTddConf.json",
+        "testsPath": "./tests",
+        "--reportsxunit": "ГенераторОтчетаJUnitXML{build/junit.xml};ГенераторОтчетаAllureXMLВерсия2{build/allure/allure.xml}",
+        "--xddExitCodePath": "./build/xddExitCodePath.txt"
+    }
+}
