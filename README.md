@@ -1,14 +1,5 @@
 # Создание любых тестов, в т.ч. и интеграционных
 
-Коллеги, дополнительно советую поставить удобный и мощный редактор Visual Studio Code
-  - (не путать с Visual Studio) от Майкрософта на свои ноутбуки для завтрашнего мастер-класса
-- https://code.visualstudio.com/download
-
-- 2 расширения для него
-  - Snippets and Syntax Highlight for Gherkin (Cucumber)
-
-  - Gherkin step autocomplete
-
 ## Чек-лист создания тестов
 
 - С чего начать:
